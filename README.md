@@ -1,4 +1,4 @@
-![screenshot](src/ironman_logo.png)
+![screenshot](src/ironman_logo.png)     ![screenshot](src/world_map.png) 
 
 :swimming_man:  This a is a regression case that aims to estimate the finish time of a half ironman based on the age, the gender and half-marathon time calculated with known marathon average pace (as you don't run a half marathon alone as quickly as you run a half marathon after swimming and cycling).
 

@@ -1,4 +1,4 @@
-![plot](https://github.com/[ropakolai]/[IRONMAN-70.3]/src/ironman_logo.png)
+![screenshot](src/ironman_logo.png)
 
 :swimming_man:  :bike: :running:
 

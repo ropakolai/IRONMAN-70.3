@@ -1,7 +1,8 @@
 ![screenshot](src/ironman_logo.png)
 
-:swimming_man:  :bike: :running:
-
+:swimming_man:  
+:bike: 
+:running:
 This a is a regression case that aims to estimate the finish time of a half ironman based on the age, the gender and half-marathon time calculated with known marathon average pace (as you don't run a half marathon alone as quickly as you run a half marathon after swimming and cycling).
 
 The dataset consists of Ironman 70.3 race records around the world registered between 2010 and 2020, including as main columns the tri-athlete´s gender, age group, country of origin, the year and the location of the race, and the partial (swim, bike, run, transitions) and full race finish times (in seconds).

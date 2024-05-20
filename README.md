@@ -1,4 +1,4 @@
-![alt text](https://github.com/[ropakolai]/[IRONMAN-70.3]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/[ropakolai]/[IRONMAN-70.3]/src/ironman_logo.png)
 
 :swimming_man:  :bike: :running:
 

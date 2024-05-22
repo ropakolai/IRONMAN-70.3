@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import sklearn
 
 def prediction_page():
     st.write("# 🔮 Prediction 🔮")

@@ -7,10 +7,10 @@ def prediction_page():
     st.write("As said in the home page, this is a regression case that aims to estimate the finish time of a half ironman based on the age, gender, and half-marathon time calculated with a known marathon average pace (as you don't run a half marathon alone as quickly as you run a half marathon after swimming and cycling)")
     st.write("### How it works:")
     st.write("")
-    st.image("/Users/Mac/Desktop/Projects/Regression/src/model.png")
+    st.image("src/images/model.png")
 
     # Load the best model
-    best_model = joblib.load('/Users/Mac/Desktop/Projects/Regression/model/ironman_model.pkl')  # Replace with the actual path to your model
+    best_model = joblib.load('model/ironman_model.pkl')  # Replace with the actual path to your model
 
     # Function to convert pace (min/km) to time in seconds and HH:MM:SS
     def convert_pace_to_total_time(pace_min_per_km):

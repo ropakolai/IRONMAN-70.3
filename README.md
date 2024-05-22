@@ -10,4 +10,5 @@ Several models were tested: Linear Regression, Ridge Regression, Lasso Regressio
 
 Limits: no information on weather, elevation, number of supporters along the course, number of refueling sites on the course, and you have elites and amateur athletes mixed in the dataset.
 
+[Link to the streamlit app](https://ironman703.streamlit.app)
 

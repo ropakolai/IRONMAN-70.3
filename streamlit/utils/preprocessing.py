@@ -8,7 +8,7 @@ def preprocessing_page():
     st.write("📊 Numeric features ('RunTime', 'AgeBand') are standardized, making them suitable for models that assume features to be normally distributed.\n\n"
     " 🗂 Categorical features ('Gender') are converted into a binary format, making them compatible with algorithms that require numerical input.\n\n"
     "This structured approach to preprocessing allows a clean and efficient preparation of data before it is fed into a machine learning model.\n\n")
-    st.image('/Users/Mac/Desktop/Projects/Regression/src/swim.jpeg')
+    st.image('src/images/swim.jpeg')
 
 # Call the function to run the Streamlit app
 preprocessing_page()

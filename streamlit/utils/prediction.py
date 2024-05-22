@@ -10,7 +10,7 @@ def prediction_page():
     st.image("src/images/model.png")
 
     # Load the best model
-    best_model = joblib.load('model/ironman_model.pkl')  # Replace with the actual path to your model
+    best_model = joblib.load('model/ironman_model.pkl')  
 
     # Function to convert pace (min/km) to time in seconds and HH:MM:SS
     def convert_pace_to_total_time(pace_min_per_km):

@@ -120,7 +120,7 @@ best_model = min(results, key=lambda x: x['Test RMSE'])
     
     st.write("### 🏆 Best Model 🏆\n\n")
     st.write("")
-    st.image("/Users/Mac/Desktop/Projects/Regression/src/xgboost.png")
+    st.image("src/images/xgboost.png")
     st.write("#### Reminder:")
     st.write("XGBoost works by combining a number of weak learners to form a strong learner. A weak learner is a machine learning model that is only slightly better than random guessing.\n",
              "However, when weak learners are combined, they can form a strong learner that is much more accurate.\n",

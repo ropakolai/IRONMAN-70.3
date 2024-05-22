@@ -30,9 +30,9 @@ def context_page():
         return df
 
     # Load the pre-generated Plotly figures
-    fig1 = load_plotly_figure("/Users/Mac/Desktop/Projects/Regression/src/plotly_figure1.json")
-    fig2 = load_plotly_figure("/Users/Mac/Desktop/Projects/Regression/src/plotly_figure2.json")
-    fig3 = load_plotly_figure("/Users/Mac/Desktop/Projects/Regression/src/plotly_figure3.json")
+    fig1 = load_plotly_figure("src/figures_table/plotly_figure1.json")
+    fig2 = load_plotly_figure("src/figures_table/plotly_figure2.json")
+    fig3 = load_plotly_figure("src/figures_table/plotly_figure3.json")
     
     # Display the figures in Streamlit
     st.plotly_chart(fig1)
@@ -41,7 +41,7 @@ def context_page():
 
     # Load and display the JSON table
     st.write("### Stats Table")
-    json_df = load_dataframe("/Users/Mac/Desktop/Projects/Regression/src/table.json")
+    json_df = load_dataframe("src/figures_table/table.json")
     st.write(json_df)
     
     st.plotly_chart(fig3)

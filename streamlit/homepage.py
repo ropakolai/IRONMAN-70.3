@@ -5,11 +5,11 @@ import plotly.graph_objects as go
 # Page config
 st.set_page_config(
     page_title="Home",
-    page_icon="/Users/Mac/Desktop/Projects/Regression/src/im.png"
+    page_icon="src/images/im.png"
 )
 
 # Sidebar image
-st.sidebar.image("/Users/Mac/Desktop/Projects/Regression/src/ironman_logo.png")
+st.sidebar.image("src/images/ironman_logo.png")
 
 # Sidebar pages
 app_pages = ["Home", "Context", "Preprocessing", "Models", "Prediction", "Conclusion"]

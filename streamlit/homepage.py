@@ -10,6 +10,10 @@ st.set_page_config(
     page_icon="src/images/im.png"
 )
 
+# Read URL parameters
+query_params = st.experimental_get_query_params()
+page = query_params.get('page', ['Home'])[0]
+
 # Sidebar image
 st.sidebar.image("src/images/ironman_logo.png")
 

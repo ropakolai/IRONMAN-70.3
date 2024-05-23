@@ -21,7 +21,7 @@ st.sidebar.image("src/images/ironman_logo.png")
 app_pages = ["Home", "Context", "Preprocessing", "Models", "Prediction", "Conclusion"]
 
 # Selection in sidebar
-page = st.sidebar.radio("Select a page:", app_pages)
+page = st.sidebar.radio("Select a page:", app_pages,  index=app_pages.index(page))
 
 # Home page function
 def homepage():

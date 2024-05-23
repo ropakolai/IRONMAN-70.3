@@ -15,7 +15,7 @@ query_params = st.experimental_get_query_params()
 page = query_params.get('page', ['Home'])[0]
 
 # Sidebar image
-st.sidebar.image("src/images/ironman_logo.png")
+st.sidebar.image("src/images/logo.svg")
 
 # Sidebar pages
 app_pages = ["Home", "Context", "Preprocessing", "Models", "Prediction", "Conclusion"]

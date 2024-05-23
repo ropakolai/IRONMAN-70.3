@@ -86,7 +86,7 @@ custom_css = """
 .bottom-right {
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    right: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
     border-radius: 5px;
